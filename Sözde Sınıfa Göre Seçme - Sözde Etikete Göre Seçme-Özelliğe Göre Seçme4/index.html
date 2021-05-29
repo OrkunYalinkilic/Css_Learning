@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+
+    p[title^="bu"]{
+        color:blue;
+    }
+
+    p[title$="paragraff"]{
+        color:darkgreen;
+    }
+
+    p[title~="birr"]{
+        color:yellow;
+    }
+
+
+</style>
+
+<body>
+    
+<p title="bu bir paragraftir."> PARAGRAF 1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, quis eveniet?</p>
+<p title="bu bir paragraf"> PARAGRAF 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quam dolor!</p>
+<p title="bu bir paragraf değildir"> PARAGRAF 3: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quibusdam dolor!</p>
+<br>
+<p title=" bir paragraftir."> PARAGRAF 1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, quis eveniet?</p>
+<p title=" bir paragraff"> PARAGRAF 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quam dolor!</p>
+<p title=" bir paragraf değildir"> PARAGRAF 3: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quibusdam dolor!</p>
+<br>
+<p title="birr paragraftir."> PARAGRAF 1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, quis eveniet?</p>
+<p title="birr paragraf"> PARAGRAF 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quam dolor!</p>
+<p title="birr paragraf değildir"> PARAGRAF 3: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quibusdam dolor!</p>
+</body>
+</html>

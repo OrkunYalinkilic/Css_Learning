@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace;
+        }
+        
+        .front{
+            width:100%;
+            height:22rem;
+            background-image: url("img/frontt.png") ;
+            background-size:100% 100%;
+            text-align:center;
+        }
+
+        .frontyazi{
+            background: lightgreen;
+            font-size:1.3rem; 
+            font-weight:bold;
+            color:darkblue;
+            text-shadow: 1px 1px 0.4px red;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        .genel{
+            width:100%;
+        }
+
+        .resim{
+            width:33.333%;
+            height: 300px;
+            float:left;
+            text-align: center;
+            font-weight: bold;
+            padding-top:10px;
+        }
+
+        .resim:nth-child(1){
+            background-image:url("img/yazilim1.jpeg");
+            color:yellow;
+        }
+
+        .resim:nth-child(2){
+            background-image:url("img/yazilim2.jpg");
+            color:chocolate;
+        }
+
+        .resim:nth-child(3){
+            background-image:url("img/yazilim3.jpg");
+            color:brown;
+        }
+
+        .resim:nth-child(1) p{
+            color:orange;
+        }
+
+        .resim:nth-child(2) p{
+            color:turquoise;
+        }
+
+        .resim:nth-child(3) p{
+            color:tomato;
+        }
+
+        #hakkimizda{
+            clear:both;
+            background:tomato;
+            height:450px;
+            width:100%;
+            text-align:center;
+        }
+
+        #hakkimizda img{
+            width:13rem;
+            height:9rem;
+            border:5px dashed black;
+            margin-top:20px;   
+        }
+
+        #hakkimizda p{
+            white-space:pre-line;
+            text-transform: capitalize;
+            font-size:17px;
+            font-weight:bold;
+        }
+
+        #hakkimizda p span{
+            font-weight: bold;
+            font-size:22px; 
+            text-decoration: underline;
+            letter-spacing: 3px;
+        }
+            
+        @media screen and (max-width:622px){
+            .resim{
+                width:100%;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>.
+    <div class="front">
+        <span class="frontyazi">Frontend evresinde yazılıma dış hatlar kazandırılır ve görsel açıdan düzen çalışmasıyla birlikte iyileştirme çalışmaları da yapılır.</span>
+    </div>
+
+<div class="genel">
+    <div class="resim"> Bir Frontend Developer'ın önüne gelen proje üzerinde çalışabilmesi için o yazılım hangi programlama diliyle yazıldığını bilmesi gerekir.<p>Gerektiğinde düzenleme yapabilecek kapasitede olması gerekir.</p> </div>
+    <div class="resim"> PHP ve MySQL kullanılarak hazırlanmış bir web yazılımı Frontend'in önüne geldiğinde geliştirici HTML, CSS, JS ve Jquery gibi ögeleri kullanarak yazılımı kullanılabilir.<p>Kullanıcının gözüne çok daha çarpıcı bir hale getirebilmelidir.</p></div>
+    <div class="resim"> Günümüzde artık birçok Frontend developer ayrıca Backend developer olarak da projelere katılabilmektedir.<p>Doğrudan bir yazılımı farklı bir kişinin yardımına ihtiyaç duymadan kendisi geliştirebilmektedir.</p></div>
+</div>
+
+<div id="hakkimizda">  
+    <img src="img/frontt.png" alt=""> 
+    <p>
+        <span>Ziyaret edilen her sayfa için güzel bir görünüm ve iyi bir his yaratıyor.</span>
+        Başka bir deyişle direkt etkileşime geçtiğiniz ve gözünüzle görebildiğiniz her sayfa için renk,fon ve diğer tüm stilleri oluşturuyor.
+    </p>
+</div>
+</body>
+</html>
